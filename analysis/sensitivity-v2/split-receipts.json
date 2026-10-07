@@ -1,0 +1,71 @@
+{
+  "unsw": {
+    "boundaries_ms": [
+      1424229426026,
+      1424246141895
+    ],
+    "input_n": 100000,
+    "purged_n": 2,
+    "train": {
+      "before": 59998,
+      "after": 34872,
+      "attacks": 1510
+    },
+    "cal": {
+      "before": 20000,
+      "after": 10498,
+      "attacks": 1446
+    },
+    "test": {
+      "before": 20000,
+      "after": 10417,
+      "attacks": 1285
+    }
+  },
+  "ton": {
+    "boundaries_ms": [
+      1556237004447,
+      1556341849249
+    ],
+    "input_n": 100000,
+    "purged_n": 0,
+    "train": {
+      "before": 60000,
+      "after": 7382,
+      "attacks": 3856
+    },
+    "cal": {
+      "before": 20000,
+      "after": 5486,
+      "attacks": 4679
+    },
+    "test": {
+      "before": 20000,
+      "after": 9367,
+      "attacks": 7534
+    }
+  },
+  "cic": {
+    "boundaries_ms": [
+      1519333790178,
+      1519853283467
+    ],
+    "input_n": 100000,
+    "purged_n": 5,
+    "train": {
+      "before": 59997,
+      "after": 40198,
+      "attacks": 7396
+    },
+    "cal": {
+      "before": 19998,
+      "after": 12189,
+      "attacks": 237
+    },
+    "test": {
+      "before": 20000,
+      "after": 12192,
+      "attacks": 306
+    }
+  }
+}

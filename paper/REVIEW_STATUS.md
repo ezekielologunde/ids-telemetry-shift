@@ -1,5 +1,7 @@
 # Manuscript status
 
+Revision update, 7 October 2026: the existing main.tex now includes the checked post-primary sensitivity extension and a corrected RiskGate-IDS reference. Native compilation again fails before parsing. Until a separately authorized PDF refresh succeeds, main.pdf and paper/build/receipt.json refer to the earlier eight-page version at commit b369956, not the revised source. The newer source contains six tables. Do not distribute the earlier PDF as this revision.
+
 Eight-page ACM-class manuscript, five tables, two figures. Author: Ezekiel Ologunde, Independent Researcher, ologunde@bu.edu, no corresponding-author designation. Complete bounded study draft for scientific review, not a claim of journal acceptance or submission readiness.
 
 ## Verified
@@ -14,7 +16,7 @@ Eight-page ACM-class manuscript, five tables, two figures. Author: Ezekiel Ologu
 
 - Resolve access to the closest papers' full methods and assess whether this bounded contribution suits a specific venue. No first-ever or state-of-the-art claim is supported.
 - Unique-pattern deduplication changes the estimand and discards some conflicting-label occurrences. Do not present this as traffic-volume effectiveness.
-- The augmentation comparison has no matched repeated-clean training control and is secondary.
+- The original augmentation comparison had no repeated-clean control. The exploratory extension adds an equal-row control and finds mixed results; it does not match every optimization effect or establish a causal masking benefit.
 - Three historical testbed domains, retrospective hourly batches and no human review experiment cannot establish SOC effectiveness.
 - Independent researcher validation, additional held-out domains and operational calibration remain unperformed.
 

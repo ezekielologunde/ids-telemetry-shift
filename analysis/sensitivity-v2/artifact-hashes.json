@@ -1,0 +1,10 @@
+{
+  "budget-summary.csv": "e2da4b75ad4ccd4b488ad08b877d0b5aad915e1ce007f4e355bfd54244974dda",
+  "fits.csv": "480fa4893f0c5f3a53d66bcf5f53ff1185504afe5beb3831bd2302324b2a6813",
+  "mask-comparison-summary.csv": "a6cab6d090c82538f3b89fa0aef7366b0094c96033861397e669e0bed9917cf8",
+  "mask-minus-repeat.csv": "9267df4b4bcdb84574ea8b7107c9630238bcbe9b39872a4c4f49c66c947075dc",
+  "metrics.csv": "e31205606666b997101820ccb687aed52f3f55d96395407212ba069e6451ef5a",
+  "prediction-manifest.json": "abf3d0657a4da9977e040d7993fab8c4ee4d27c7672ee36039ad7e333281aced",
+  "split-receipts.json": "382588f7922d4f288828dfab2fa99000ac4e54ee5fe06c4a1ec98b5e826f406d",
+  "verification.json": "f2f235a105f454d3125a0d3a4c473de351657656912c430277ebbe33080bdf64"
+}

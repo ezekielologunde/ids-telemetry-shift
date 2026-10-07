@@ -1,0 +1,1 @@
+{"prediction_files": 1080, "metric_rows": 4320, "primary_bridge_rows": 1440, "passed": true, "scope": "Routing recomputed independently from saved probabilities; metric counts and original-metric bridge verified. Labels and model fitting are not independently validated."}

@@ -1,4 +1,5 @@
 """Post-primary sensitivity study; original evaluator and outputs remain intact."""
+import argparse
 import hashlib
 import json
 import time
@@ -19,10 +20,10 @@ def weighted_test(full, unique, boundary, features):
     eligible['_hash']=pd.util.hash_pandas_object(x,index=False).to_numpy()
     return eligible.loc[eligible._hash.isin(unique._hash)].sort_values('_row')
 
-def run():
-    out=ROOT/'analysis/sensitivity-v2'
+def run(output):
+    out=Path(output)
     out.mkdir(exist_ok=False)
-    evidence=ROOT/'data/processed/predictions-sensitivity-v2'
+    evidence=ROOT/'data/processed'/('predictions-'+out.name)
     evidence.mkdir(exist_ok=False)
     data={n:pd.read_pickle(ROOT/'data/processed'/f'{n}.pkl') for n in ['unsw','ton','cic']}
     features=[c for c in data['unsw'] if c not in EXCLUDE]
@@ -91,4 +92,7 @@ def run():
     (out/'split-receipts.json').write_text(json.dumps(receipts,indent=2)+'\n')
     print('Complete',len(metrics),'metric rows',flush=True)
 
-if __name__=='__main__':run()
+if __name__=='__main__':
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--output',default=str(ROOT/'analysis/sensitivity-v2'))
+    run(parser.parse_args().output)
