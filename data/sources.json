@@ -1,0 +1,11 @@
+{
+  "retrieved_date": "2026-10-07",
+  "catalogue": "https://staff.itee.uq.edu.au/marius/NIDS_datasets/",
+  "license_label": "Permitted Re-Use with Commercial Use Restriction",
+  "license_url": "https://guides.library.uq.edu.au/research-and-teaching-staff/data-deposit-checklist/license-reuse-noncommercial#s-lg-box-wrapper-25741028",
+  "datasets": [
+    {"name": "NF-UNSW-NB15-v3", "landing_page": "https://rdm.uq.edu.au/files/abd2f5d8-e268-4ff0-84fb-f2f7b3ca3e8f", "archive": "f7546561558c07c5_NFV3DATA-A11964_A11964.zip"},
+    {"name": "NF-ToN-IoT-v3", "landing_page": "https://rdm.uq.edu.au/files/343e2e8c-6e6e-4a0c-813d-a46acea1b7f4", "archive": "02934b58528a226b_NFV3DATA-A11964_A11964.zip"},
+    {"name": "NF-CICIDS2018-v3", "landing_page": "https://rdm.uq.edu.au/files/4ac221b1-6bd6-42b1-bdf7-03f4fc7efb22", "archive": "f78acbaa2afe1595_NFV3DATA-A11964_A11964.zip"}
+  ]
+}
