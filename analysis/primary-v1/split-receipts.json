@@ -1,0 +1,161 @@
+{
+  "features": [
+    "PROTOCOL",
+    "IN_BYTES",
+    "IN_PKTS",
+    "OUT_BYTES",
+    "OUT_PKTS",
+    "TCP_FLAGS",
+    "CLIENT_TCP_FLAGS",
+    "SERVER_TCP_FLAGS",
+    "FLOW_DURATION_MILLISECONDS",
+    "MIN_TTL",
+    "MAX_TTL",
+    "LONGEST_FLOW_PKT",
+    "SHORTEST_FLOW_PKT",
+    "MIN_IP_PKT_LEN",
+    "MAX_IP_PKT_LEN",
+    "SRC_TO_DST_SECOND_BYTES",
+    "DST_TO_SRC_SECOND_BYTES",
+    "RETRANSMITTED_IN_BYTES",
+    "RETRANSMITTED_IN_PKTS",
+    "RETRANSMITTED_OUT_BYTES",
+    "RETRANSMITTED_OUT_PKTS",
+    "SRC_TO_DST_AVG_THROUGHPUT",
+    "DST_TO_SRC_AVG_THROUGHPUT",
+    "NUM_PKTS_UP_TO_128_BYTES",
+    "NUM_PKTS_128_TO_256_BYTES",
+    "NUM_PKTS_256_TO_512_BYTES",
+    "NUM_PKTS_512_TO_1024_BYTES",
+    "NUM_PKTS_1024_TO_1514_BYTES",
+    "TCP_WIN_MAX_IN",
+    "TCP_WIN_MAX_OUT",
+    "ICMP_TYPE",
+    "ICMP_IPV4_TYPE",
+    "DNS_QUERY_TYPE",
+    "DNS_TTL_ANSWER",
+    "FTP_COMMAND_RET_CODE",
+    "SRC_TO_DST_IAT_MIN",
+    "SRC_TO_DST_IAT_MAX",
+    "SRC_TO_DST_IAT_AVG",
+    "SRC_TO_DST_IAT_STDDEV",
+    "DST_TO_SRC_IAT_MIN",
+    "DST_TO_SRC_IAT_MAX",
+    "DST_TO_SRC_IAT_AVG",
+    "DST_TO_SRC_IAT_STDDEV"
+  ],
+  "groups": {
+    "temporal": [
+      "FLOW_DURATION_MILLISECONDS",
+      "SRC_TO_DST_IAT_MIN",
+      "SRC_TO_DST_IAT_MAX",
+      "SRC_TO_DST_IAT_AVG",
+      "SRC_TO_DST_IAT_STDDEV",
+      "DST_TO_SRC_IAT_MIN",
+      "DST_TO_SRC_IAT_MAX",
+      "DST_TO_SRC_IAT_AVG",
+      "DST_TO_SRC_IAT_STDDEV"
+    ],
+    "size": [
+      "IN_BYTES",
+      "IN_PKTS",
+      "OUT_BYTES",
+      "OUT_PKTS",
+      "LONGEST_FLOW_PKT",
+      "SHORTEST_FLOW_PKT",
+      "MIN_IP_PKT_LEN",
+      "MAX_IP_PKT_LEN",
+      "SRC_TO_DST_SECOND_BYTES",
+      "DST_TO_SRC_SECOND_BYTES",
+      "RETRANSMITTED_IN_BYTES",
+      "RETRANSMITTED_IN_PKTS",
+      "RETRANSMITTED_OUT_BYTES",
+      "RETRANSMITTED_OUT_PKTS",
+      "SRC_TO_DST_AVG_THROUGHPUT",
+      "DST_TO_SRC_AVG_THROUGHPUT",
+      "NUM_PKTS_UP_TO_128_BYTES",
+      "NUM_PKTS_128_TO_256_BYTES",
+      "NUM_PKTS_256_TO_512_BYTES",
+      "NUM_PKTS_512_TO_1024_BYTES",
+      "NUM_PKTS_1024_TO_1514_BYTES"
+    ],
+    "tcp": [
+      "TCP_FLAGS",
+      "CLIENT_TCP_FLAGS",
+      "SERVER_TCP_FLAGS",
+      "TCP_WIN_MAX_IN",
+      "TCP_WIN_MAX_OUT"
+    ]
+  },
+  "domains": {
+    "unsw": {
+      "boundaries_ms": [
+        1424229426026,
+        1424246141895
+      ],
+      "input_n": 100000,
+      "purged_n": 2,
+      "train": {
+        "before": 59998,
+        "after": 34872,
+        "attacks": 1510
+      },
+      "cal": {
+        "before": 20000,
+        "after": 10498,
+        "attacks": 1446
+      },
+      "test": {
+        "before": 20000,
+        "after": 10417,
+        "attacks": 1285
+      }
+    },
+    "ton": {
+      "boundaries_ms": [
+        1556237004447,
+        1556341849249
+      ],
+      "input_n": 100000,
+      "purged_n": 0,
+      "train": {
+        "before": 60000,
+        "after": 7382,
+        "attacks": 3856
+      },
+      "cal": {
+        "before": 20000,
+        "after": 5486,
+        "attacks": 4679
+      },
+      "test": {
+        "before": 20000,
+        "after": 9367,
+        "attacks": 7534
+      }
+    },
+    "cic": {
+      "boundaries_ms": [
+        1519333790178,
+        1519853283467
+      ],
+      "input_n": 100000,
+      "purged_n": 5,
+      "train": {
+        "before": 59997,
+        "after": 40198,
+        "attacks": 7396
+      },
+      "cal": {
+        "before": 19998,
+        "after": 12189,
+        "attacks": 237
+      },
+      "test": {
+        "before": 20000,
+        "after": 12192,
+        "attacks": 306
+      }
+    }
+  }
+}

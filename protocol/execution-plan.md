@@ -1,5 +1,7 @@
 # Execution plan and resource gates
 
+Completion update, 7 October 2026: all three archive audits and the frozen bounded experiment are complete. The separate recount verified 648 prediction files and 6,480 metric rows. An eight-page ACM-class manuscript with five tables and two figures compiled using the portable fallback; the native compiler remains unavailable. The plan below is retained as history. The scope was narrowed before fitting to two conventional CPU models; no MLP or HPC execution was performed. Remaining publication gates are scientific author review, closest-method full-text comparison, venue choice and submission approval.
+
 ## Completed
 
 - Repository and candidate hypotheses created before model fitting.

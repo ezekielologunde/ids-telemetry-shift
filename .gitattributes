@@ -1,5 +1,6 @@
 * text=auto eol=lf
 analysis/** -text
+paper/** -text
 data/manifests/** -text
 *.pdf -text
 *.zip -text

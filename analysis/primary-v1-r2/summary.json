@@ -1,0 +1,12 @@
+{
+  "metric_rows": 6480,
+  "cross_5pct_rows": 1296,
+  "paired_conditions": 432,
+  "frozen_budget_exceedances": 362,
+  "frozen_review_min": 0.0085406213302017,
+  "frozen_review_max": 1.0,
+  "frozen_residual_lower_than_cap": 356,
+  "frozen_residual_equal_cap": 1,
+  "frozen_residual_higher_than_cap": 75,
+  "note": "Descriptive cells reuse domains and samples; not independent trials."
+}

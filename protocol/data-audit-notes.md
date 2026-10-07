@@ -1,5 +1,7 @@
 # Data feasibility findings
 
+Completion update: all three archive audits have now passed. The user selected a failure-boundary study, and the complete primary restart is in analysis/primary-v1-r2. Initial status statements below are historical checkpoints. The completed study does not claim exclusive novelty.
+
 7 October 2026. These are data-quality observations, not model evaluation results.
 
 The official NF-UNSW-NB15-v3 ZIP passed every supplied payload SHA-1 check. Our additional archive SHA-256 is recorded in `analysis/unsw-schema-audit.json`. The CSV contains 2,365,424 flows: 2,237,731 benign and 127,693 attack. The catalogue states 127,639 attacks, a 54-record discrepancy; the downloaded labels are the analysis source of truth. This does not establish incorrect row labels.

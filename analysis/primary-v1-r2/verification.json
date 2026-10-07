@@ -1,0 +1,6 @@
+{
+  "prediction_files_checked": 648,
+  "metric_rows_recounted": 6480,
+  "passed": true,
+  "scope": "Hashes, forced errors, conservation identities, frozen routing and hourly budget counts; does not independently validate labels, sampling or model fitting."
+}

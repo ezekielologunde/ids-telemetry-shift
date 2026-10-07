@@ -1,0 +1,20 @@
+{"source": "unsw", "seed": 17, "augmented": false, "model": "logistic", "rows": 34872, "seconds": 0.2037099000008311}
+{"source": "unsw", "seed": 17, "augmented": false, "model": "forest", "rows": 34872, "seconds": 1.2206414999964181}
+{"source": "unsw", "seed": 17, "augmented": true, "model": "logistic", "rows": 69744, "seconds": 0.5202719000226352}
+{"source": "unsw", "seed": 17, "augmented": true, "model": "forest", "rows": 69744, "seconds": 3.1833625999861397}
+{"source": "unsw", "seed": 29, "augmented": false, "model": "logistic", "rows": 34872, "seconds": 0.2920027000072878}
+{"source": "unsw", "seed": 29, "augmented": false, "model": "forest", "rows": 34872, "seconds": 1.3135368000075687}
+{"source": "unsw", "seed": 29, "augmented": true, "model": "logistic", "rows": 69744, "seconds": 0.6289380000089295}
+{"source": "unsw", "seed": 29, "augmented": true, "model": "forest", "rows": 69744, "seconds": 5.7705276000197046}
+{"source": "unsw", "seed": 43, "augmented": false, "model": "logistic", "rows": 34872, "seconds": 0.4715788000030443}
+{"source": "unsw", "seed": 43, "augmented": false, "model": "forest", "rows": 34872, "seconds": 1.9147912999906112}
+{"source": "unsw", "seed": 43, "augmented": true, "model": "logistic", "rows": 69744, "seconds": 0.8397788000002038}
+{"source": "unsw", "seed": 43, "augmented": true, "model": "forest", "rows": 69744, "seconds": 4.181151700002374}
+Traceback (most recent call last):
+  File "C:\Users\WT8\Projects\ids-telemetry-shift\src\evaluate.py", line 145, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--data-dir',required=True);p.add_argument('--output',required=True);a=p.parse_args();run(a.data_dir,a.output)
+                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\WT8\Projects\ids-telemetry-shift\src\evaluate.py", line 87, in run
+    raw=train[features].to_numpy(float);raw[~np.isfinite(raw)]=np.nan
+                                        ~~~^^^^^^^^^^^^^^^^^^^
+ValueError: assignment destination is read-only
