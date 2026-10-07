@@ -1,0 +1,38 @@
+{
+  "samples": {
+    "unsw": {
+      "sha256": "ca5cf636c06289c7f65ac02d6a428f7b2cc2177d5d4afe65c72d35dcde76e573",
+      "rows": 100000,
+      "attacks": 5362
+    },
+    "ton": {
+      "sha256": "c3c2c90a4a084b32200150cb7334210500674024f8612055ca39d9b567e84c8e",
+      "rows": 100000,
+      "attacks": 39014
+    },
+    "cic": {
+      "sha256": "4d01d1f5a0300421e45463b2e1f2f5420901d85e7e605705e64c806990752827",
+      "rows": 100000,
+      "attacks": 12959
+    }
+  },
+  "conflicts": {
+    "unsw": {
+      "unique_patterns": 55788,
+      "conflicting_patterns": 0,
+      "flows_in_conflicting_patterns": 0
+    },
+    "ton": {
+      "unique_patterns": 22235,
+      "conflicting_patterns": 252,
+      "flows_in_conflicting_patterns": 54714
+    },
+    "cic": {
+      "unique_patterns": 64584,
+      "conflicting_patterns": 237,
+      "flows_in_conflicting_patterns": 12417
+    }
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

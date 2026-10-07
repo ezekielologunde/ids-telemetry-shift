@@ -1,0 +1,38 @@
+{
+  "unsw": {
+    "primary": {
+      "conflicting_patterns": 0,
+      "minimum_errors_on_full_sample": 0,
+      "sample_n": 100000
+    },
+    "extended": {
+      "conflicting_patterns": 0,
+      "minimum_errors_on_full_sample": 0,
+      "sample_n": 100000
+    }
+  },
+  "ton": {
+    "primary": {
+      "conflicting_patterns": 252,
+      "minimum_errors_on_full_sample": 5186,
+      "sample_n": 100000
+    },
+    "extended": {
+      "conflicting_patterns": 44,
+      "minimum_errors_on_full_sample": 44,
+      "sample_n": 100000
+    }
+  },
+  "cic": {
+    "primary": {
+      "conflicting_patterns": 237,
+      "minimum_errors_on_full_sample": 388,
+      "sample_n": 100000
+    },
+    "extended": {
+      "conflicting_patterns": 8,
+      "minimum_errors_on_full_sample": 15,
+      "sample_n": 100000
+    }
+  }
+}

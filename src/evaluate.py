@@ -84,7 +84,7 @@ def run(data_dir, output):
         if len(train.Label.unique())!=2 or len(cal.Label.unique())!=2:
             raise ValueError(f'{source} lacks both classes in training/calibration')
         seen=set(train._hash)|set(cal._hash)
-        raw=train[features].to_numpy(float);raw[~np.isfinite(raw)]=np.nan
+        raw=train[features].to_numpy(dtype=float,copy=True);raw[~np.isfinite(raw)]=np.nan
         med=np.nanmedian(raw,axis=0);med=np.nan_to_num(med)
         def prep(x):
             missing=~np.isfinite(x)
