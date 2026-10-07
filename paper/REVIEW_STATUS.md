@@ -1,15 +1,15 @@
 # Manuscript status
 
-Revision update, 7 October 2026: the existing main.tex now includes the checked post-primary sensitivity extension and a corrected RiskGate-IDS reference. Native compilation again fails before parsing. Until a separately authorized PDF refresh succeeds, main.pdf and paper/build/receipt.json refer to the earlier eight-page version at commit b369956, not the revised source. The newer source contains six tables. Do not distribute the earlier PDF as this revision.
+Revision update, 7 October 2026: the existing main.tex includes the independently recounted post-primary sensitivity extension and corrected RiskGate-IDS reference. The authorized portable offline build succeeded. Source and PDF hashes match paper/build/receipt.json. All nine rendered pages were inspected, including full-size result tables and chart. The native editor compiler still fails before parsing with its platform-directory error.
 
-Eight-page ACM-class manuscript, five tables, two figures. Author: Ezekiel Ologunde, Independent Researcher, ologunde@bu.edu, no corresponding-author designation. Complete bounded study draft for scientific review, not a claim of journal acceptance or submission readiness.
+Nine-page ACM-class manuscript, six tables, two figures. Author: Ezekiel Ologunde, Independent Researcher, ologunde@bu.edu, no corresponding-author designation. Complete bounded study draft for scientific review, not a claim of journal acceptance or submission readiness.
 
 ## Verified
 
 - Official archive integrity, dataset counts and sample hashes recorded.
 - Protocol and code frozen before primary outcomes; pandas compatibility restart disclosed and partial run preserved.
-- Six boundary tests pass. Second implementation verifies 648 saved prediction hashes and 6,480 metric rows within its stated scope.
-- Portable offline compiler succeeds. PDF pages rendered and inspected, including full-size result tables and chart. No overfull-box or undefined-reference warnings in the final build. Fontconfig/default font warnings remain despite successful rendering.
+- Seven boundary tests pass. The sensitivity recount verifies 1,080 prediction files and 4,320 rows, with 1,440 overlapping primary rows reproduced. Second implementation verifies 648 saved prediction hashes and 6,480 metric rows within its stated scope.
+- Portable offline compiler succeeds. PDF pages rendered and inspected, including full-size result tables and chart. No overfull-box or undefined-reference warnings in the final build. Fontconfig/default font and underfull-box warnings remain despite successful rendering.
 - Native editor compilation fails before source diagnostics with its platform-directory error. It is not claimed to work.
 
 ## Material scientific limits before submission

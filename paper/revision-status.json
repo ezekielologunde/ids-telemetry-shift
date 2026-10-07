@@ -2,6 +2,12 @@
   "revision": "sensitivity-v2",
   "native_compiler": "failed before parsing: Unable to find standard directories for platform",
   "current_source_sha256": "9780ea494826ebc300f49086a88f4a1680c25f058ae6627906aa145e09c1f509",
-  "pdf_status": "Previous revision b369956; not current source",
-  "pdf_refresh": "awaiting explicit user answer"
+  "pdf_sha256": "0afd2d7bcce7fcb4d5c20332da0d6f75798d9801461c0eb86e2da5d7f2a88c58",
+  "pdf_status": "current source compiled successfully with verified portable offline Tectonic",
+  "pdf_refresh": "explicitly authorized; completed",
+  "pages": 9,
+  "tables": 6,
+  "figures": 2,
+  "visual_qa": "All nine rendered pages inspected; result tables and chart inspected at full size",
+  "warnings": "Fontconfig/default font and underfull-box warnings; no overfull boxes or undefined references"
 }

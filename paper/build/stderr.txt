@@ -116,10 +116,10 @@ warning: main.tex:45: Requested font "ntxsyc" at 9.0pt
 warning: main.tex:45:  -> ntxsyc
 warning: main.tex:45: Requested font "ntxexa" at 9.0pt
 warning: main.tex:45:  -> ntxexa
-warning: main.tex:117: Underfull \vbox (badness 7273) has occurred while \output is active
 warning: main.tex:186: Underfull \vbox (badness 10000) has occurred while \output is active
-warning: main.tex:208: Underfull \hbox (badness 1472) in paragraph at lines 207--208
-warning: main.tex:211: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: main.tex:234: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:239: Underfull \hbox (badness 1472) in paragraph at lines 238--239
+warning: main.tex:241: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
 warning: libertine.sty:308: 
 Requested font "[LinLibertine_R.otf]/OT" at 8.99997pt
 warning: libertine.sty:308: Requested font "[LinLibertine_R.otf]/OT" at 9.00003pt
@@ -213,7 +213,6 @@ warning: main.tex:19: Requested font "[LinBiolinum_R.otf]/OT:script=latn;languag
 warning: main.tex:19: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
 warning: main.tex:19: Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
 warning: main.tex:21: Requested font "[LinBiolinum_RB.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 9.0pt
-warning: main.tex:32: Underfull \hbox (badness 6944) in paragraph at lines 31--32
 warning: main.tex:44: Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 8.0pt
 warning: main.tex:45: Requested font "MinLibReg-ot1" at 9.0pt
 warning: main.tex:45:  -> MinLibReg-ot1
@@ -237,8 +236,8 @@ warning: main.tex:45: Requested font "ntxsyc" at 9.0pt
 warning: main.tex:45:  -> ntxsyc
 warning: main.tex:45: Requested font "ntxexa" at 9.0pt
 warning: main.tex:45:  -> ntxexa
-warning: main.tex:117: Underfull \vbox (badness 7273) has occurred while \output is active
 warning: main.tex:186: Underfull \vbox (badness 10000) has occurred while \output is active
-warning: main.tex:208: Underfull \hbox (badness 1472) in paragraph at lines 207--208
-warning: main.tex:211: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
+warning: main.tex:234: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: main.tex:239: Underfull \hbox (badness 1472) in paragraph at lines 238--239
+warning: main.tex:241: Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;mapping=tex-text;" at 7.0pt
 warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.

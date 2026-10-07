@@ -36,6 +36,6 @@
     "cp /compiler/tectonic /tmp/tectonic && chmod +x /tmp/tectonic && /tmp/tectonic --keep-logs --outdir /output /input/main.tex"
   ],
   "exit_code": 0,
-  "source_sha256": "137dd9dd946e23721bf9ae69c6a98919e6cdd440514ec35cc3b2eab4a55c41cf",
-  "pdf_sha256": "c35619d7778fad6b7b05f494f87cb4258ab0ce415c4a68707ba4e7573d5afb11"
+  "source_sha256": "9780ea494826ebc300f49086a88f4a1680c25f058ae6627906aa145e09c1f509",
+  "pdf_sha256": "0afd2d7bcce7fcb4d5c20332da0d6f75798d9801461c0eb86e2da5d7f2a88c58"
 }

@@ -46,3 +46,7 @@ python src/summarize_sensitivity_v2.py --output analysis/sensitivity-replication
 ```
 
 The runner refuses to overwrite analysis/sensitivity-v2 or its local prediction directory. Expected: 54 fits, 1,080 prediction files, 4,320 rows, and an exact/tolerance-bounded bridge for 1,440 original metric rows. The source-update script is a one-time patch and intentionally refuses to add a second copy of the manuscript section. Rerun summary/verification independently rather than rerun that patch. The primary script and result bytes remain unchanged.
+
+## Verified manuscript refresh
+
+On 7 October 2026, the authorized offline portable build produced the current nine-page sensitivity-v2 PDF. The initial attempt failed because Docker was stopped; after starting Docker, the build succeeded. All pages were rendered and inspected. Source and PDF hashes are recorded in paper/build/receipt.json and paper/revision-status.json. The native editor platform-directory failure remains unresolved. The Overleaf package contains the matching source, figure and review-status note.

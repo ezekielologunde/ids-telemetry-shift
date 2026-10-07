@@ -2,7 +2,7 @@
 
 Author: Ezekiel Ologunde, Independent Researcher. Email: ologunde@bu.edu.
 
-Status: bounded primary study and post-primary sensitivity review completed, 7 October 2026. Revised source includes the extension; its PDF refresh awaits resolution of the native compiler failure. The existing PDF is the earlier eight-page revision. No established exclusive novelty or journal submission. Original work remains unlicensed. Third-party dataset and paper terms remain in force.
+Status: bounded primary study and post-primary sensitivity review completed, 7 October 2026. The revised nine-page PDF and Overleaf source both include the extension, with six tables and two figures. The portable offline build and rendered-page inspection pass; the native editor compiler remains unavailable. No established exclusive novelty or journal submission. Original work remains unlicensed. Third-party dataset and paper terms remain in force.
 
 The research asks whether uncertainty-based triage remains useful under simultaneous domain transfer and structured loss of flow telemetry. The initial broad proposal overlaps with RiskGate-IDS; budgeted cross-domain detection alone is not a new contribution. The candidate contribution is a controlled evaluation of joint shift, feature-family outages, and the distinction between a calibration-time review budget and a deployment-time hard budget.
 
